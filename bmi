@@ -1,0 +1,10 @@
+h=float("enter your height in meter"))
+w=float("enter your weight in kg"))
+name=str(input("enter your name "))
+bmi=w/(h*h)
+if bmi<25:
+  print(name, "is oeverweight")
+elif bmi>25:
+  print(name, "is normal")
+ elif bmi>18:
+  print(name, "is underweight")
